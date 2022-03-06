@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 1200,
+      "quantity": 120,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 150,
+      "quantity": 50,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 900,
+      "quantity": 300,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Paper RAM",
+      "price": 20,
+      "quantity": 50,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Fix-Box Orange",
+      "price": "120",
+      "quantity": 1,
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 8,
+      "name": "Telephone Standard",
+      "price": "45.5",
+      "quantity": 20,
+      "selected": false,
+      "available": true
+    }
+  ]
+}

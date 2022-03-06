@@ -1,0 +1,48 @@
+<div class="container p-5 my-5 bg-dark text-white" >
+  <h3 class="modal-title text-xl-center">Edit Product</h3>
+  <div class="container" *ngIf="productFormGroup">
+    <form [formGroup]="productFormGroup" >
+      <div class="form-group mb-3 mt-3">
+        <label class="form-label">
+          <h5 class="overflow-hidden">Id:</h5>
+        </label>
+        <input type="text" class="form-control" formControlName="id">
+      </div>
+      <div class="mb-3 mt-3">
+        <label class="form-label">
+          <h5>Name:</h5>
+        </label>
+        <input type="text" class="form-control" formControlName="name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          <h5>Price:</h5>
+        </label>
+        <input type="text" class="form-control" formControlName="price">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">
+          <h5>Quantity:</h5>
+        </label>
+        <input type="number" class="form-control" formControlName="quantity">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" formControlName="selected">
+        <label class="form-check-label">
+          <h5>Selected</h5>
+        </label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" formControlName="available">
+        <label class="form-check-label">
+          <h5>Available</h5>
+        </label>
+      </div>
+      <div class="d-grid">
+        <button class="btn btn-success btn-block" (click)="onUpdateProduct()">
+          <h4>Valider</h4>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
